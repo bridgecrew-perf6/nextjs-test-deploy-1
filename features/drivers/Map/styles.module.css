@@ -1,0 +1,40 @@
+.mapContainer {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+}
+
+.controls {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  display: flex;
+}
+
+.sliderContainer {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+}
+
+.slider input {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  appearance: none;
+  height: 8px;
+  background: #000;
+  outline: none;
+  transition: opacity .2s;
+  border-radius: 5px;
+}
+
+.officePin {
+  color: red;
+  z-index: 10;
+  position: relative;
+}
+
+.driversPin {
+  color: purple;
+}
